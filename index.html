@@ -64,6 +64,23 @@
                             </ul>
                         </nav>
                     </div>
+                    <div class="header-mobile">
+                        <nav class="nav">
+                            <ul class="nav-list">
+                                <li class="nav-item"><a href="#">Входные двери</a></li>
+                                <li class="nav-item"><a href="#">Межкомнатные</a></li>
+                                <li class="nav-item"><a href="#">Комплексные решения</a></li>
+                                <li class="nav-item"><a href="#">замер</a></li>
+                                <li class="nav-item"><a href="#">акции
+                                    <svg width="13" height="11" viewBox="0 0 13 11" fill="#EE4941" xmlns="http://www.w3.org/2000/svg"><path d="M3.066 5.128C2.59 5.128 2.15133 5.02533 1.75 4.82C1.358 4.60533 1.04067 4.30667 0.798 3.924C0.564667 3.532 0.448 3.07933 0.448 2.566C0.448 2.062 0.564667 1.614 0.798 1.222C1.04067 0.83 1.358 0.531333 1.75 0.325999C2.15133 0.111333 2.59 0.00399935 3.066 0.00399935C3.53267 0.00399935 3.962 0.111333 4.354 0.325999C4.75533 0.531333 5.07267 0.83 5.306 1.222C5.54867 1.614 5.67 2.062 5.67 2.566C5.67 3.07933 5.55333 3.532 5.32 3.924C5.08667 4.30667 4.76933 4.60533 4.368 4.82C3.96667 5.02533 3.53267 5.128 3.066 5.128ZM10.08 0.199999L4.242 10H2.828L8.666 0.199999H10.08ZM3.066 3.854C3.41133 3.854 3.71 3.73733 3.962 3.504C4.214 3.27067 4.34 2.958 4.34 2.566C4.34 2.174 4.214 1.86133 3.962 1.628C3.71 1.39467 3.41133 1.278 3.066 1.278C2.71133 1.278 2.408 1.39467 2.156 1.628C1.904 1.86133 1.778 2.174 1.778 2.566C1.778 2.958 1.904 3.27067 2.156 3.504C2.408 3.73733 2.71133 3.854 3.066 3.854ZM9.842 10.196C9.366 10.196 8.92733 10.0933 8.526 9.888C8.134 9.67333 7.81667 9.37 7.574 8.978C7.34067 8.586 7.224 8.138 7.224 7.634C7.224 7.12067 7.34067 6.67267 7.574 6.29C7.81667 5.898 8.134 5.59933 8.526 5.394C8.92733 5.17933 9.366 5.072 9.842 5.072C10.318 5.072 10.752 5.17933 11.144 5.394C11.5453 5.59933 11.8627 5.898 12.096 6.29C12.3387 6.67267 12.46 7.12067 12.46 7.634C12.46 8.138 12.3387 8.586 12.096 8.978C11.8627 9.37 11.5453 9.67333 11.144 9.888C10.752 10.0933 10.318 10.196 9.842 10.196ZM9.842 8.922C10.1873 8.922 10.486 8.80533 10.738 8.572C10.99 8.33867 11.116 8.026 11.116 7.634C11.116 7.242 10.99 6.92933 10.738 6.696C10.486 6.46267 10.1873 6.346 9.842 6.346C9.49667 6.346 9.198 6.46267 8.946 6.696C8.694 6.92933 8.568 7.242 8.568 7.634C8.568 8.026 8.694 8.33867 8.946 8.572C9.198 8.80533 9.49667 8.922 9.842 8.922Z" fill="#EE4941"/></svg>
+                                    </a>
+                                </li>
+                                <li class="nav-item"><a href="#">оплата</a></li>
+                                <li class="nav-item"><a href="#">доставка и установка</a></li>
+                                <li class="nav-item"><a href="#">контакты</a></li>
+                            </ul>
+                        </nav>
+                    </div>
                 </div>
             </div>
         </div>
@@ -106,7 +123,7 @@
                         <a class="filters type-sort" href="#">Фильтры</a>
                     </div>
                 </div>
-                <div class="type-filter-mobile-dropdown" style="display: none;">
+                <div class="type-filter-mobile-dropdown">
                     <div class="mobile-dropdown-link">
                         <div class="container">
                             <div class="row">
@@ -117,7 +134,7 @@
                     <div class="mobile-dropdown-link">
                         <div class="container">
                             <div class="row">
-                                <a class="type-sort" href="#">ДЛЯ ДОМА</a>
+                                <a class="type-sort" href="#">ДЛЯ КВАРТИРЫ</a>
                             </div>
                         </div>
                     </div>
@@ -845,13 +862,22 @@
         <div class="pagination">
             <div class="container">
                 <div class="row">
-                    <div class="pagination-btn pagination-btn-prev">Назад</div>
+                    <div class="pagination-btn pagination-btn-prev">
+                        <span class="pagination-btn-name">Назад</span>
+                        <span class="pagination-btn-img">
+                            <img src="assets/images/left-arrow.svg" alt="left-arrow">
+                        </span>
+                    </div>
                     <div class="pagination-btn pagination-btn-number">1</div>
                     <div class="pagination-btn pagination-btn-number">2</div>
                     <div class="pagination-btn pagination-btn-number pagination-btn-active">3</div>
                     <div class="pagination-btn pagination-btn-number">4</div>
                     <div class="pagination-btn pagination-btn-number">5</div>
-                    <div class="pagination-btn pagination-btn-next">далее</div>
+                    <div class="pagination-btn pagination-btn-next">
+                        <span class="pagination-btn-name">далее</span>
+                        <span class="pagination-btn-img">
+                            <img src="assets/images/left-arrow.svg" alt="left-arrow">
+                        </span></div>
                     <div class="pagination-btn pagination-btn-download">Загрузить еще 30 дверей</div>
                 </div>
             </div>
@@ -968,7 +994,7 @@
         <div class="footer-nav">
             <div class="container">
                 <div class="row">
-                    <div class="col-2 katalog">
+                    <div class="col-lg-2 katalog">
                         <h5>Каталог</h5>
                         <ul>
                             <li><a href="#">Входные двери</a></li>
@@ -976,7 +1002,7 @@
                             <li><a href="#">Комплексные решения</a></li>
                         </ul>
                     </div>
-                    <div class="col-3 customer">
+                    <div class="col-lg-3 customer">
                         <h5>Покупателю</h5>
                         <ul> 
                             <li><a href="#">Бесплатны й замер</a></li>
@@ -985,7 +1011,7 @@
                             <li><a href="#">Виды межкомнатных дверей</a></li>
                         </ul>
                     </div>
-                    <div class="col-2 about">
+                    <div class="col-lg-2 about">
                         <h5>о компании </h5>
                         <ul>
                             <li><a href="#">О нас</a></li>
@@ -994,7 +1020,7 @@
                             <li><a href="#">Пользовательское соглашение</a></li>
                         </ul>
                     </div>
-                    <div class="col-1 follow">
+                    <div class="col-lg-1 follow">
                         <h5>следите</h5>
                         <ul>
                             <li><a href="#">Инстаграм</a></li>
@@ -1002,7 +1028,7 @@
                             <li><a href="#">Пинтерест</a></li>
                         </ul>
                     </div>
-                    <div class="col-2 salon">
+                    <div class="col-lg-2 salon">
                         <h5>Фирменные салоны</h5>
                         <ul>
                             <li><a href="#">пр-т Дзержинского, 122</a></li>
@@ -1013,6 +1039,98 @@
                     </div>
                 </div>
             </div>
+        </div>
+        <div class="modal-filter">
+            <form>
+                <div class="modal-filter-wrapper">
+                    <div class="header">
+                        <div class="modal-filter-header-title">Фильтры</div>
+                        <div class="modal-filter-header-close">
+                            <img src="assets/images/close.png" alt="close">
+                        </div>
+                    </div>
+                    <div class="modal-filter-items">
+                        <div class="modal-filter-item sort">Сортировать</div>
+                        <div class="modal-filter-item">Стиль</div>
+                        <div class="modal-filter-item">Фрезеровка</div>
+                        <div class="modal-filter-item">
+                            <label class="item-dropdown-label">
+                                <input class="item-dropdown-checkbox" type="checkbox">
+                                <span class="item-dropdown-text">Двупольные</span>
+                            </label>
+                        </div>
+                        <div class="modal-filter-item">
+                            <label class="item-dropdown-label">
+                                <input class="item-dropdown-checkbox" type="checkbox">
+                                <span class="item-dropdown-text">Акции и скидки</span>
+                            </label>
+                        </div>
+                        <div class="modal-filter-item">
+                            <label class="item-dropdown-label">
+                                <input class="item-dropdown-checkbox" type="checkbox">
+                                <span class="item-dropdown-text">Интересные решения</span>
+                            </label>
+                        </div>
+                        <div class="modal-filter-item">
+                            <label class="item-dropdown-label">
+                                <input class="item-dropdown-checkbox" type="checkbox">
+                                <span class="item-dropdown-text">Образцы в салоне</span>
+                            </label>
+                        </div>
+                        <div class="modal-filter-item">
+                            <label class="item-dropdown-label">
+                                <input class="item-dropdown-checkbox" type="checkbox">
+                                <span class="item-dropdown-text">Со стеклом</span>
+                            </label>
+                        </div>
+                        <div class="modal-filter-item">
+                            <label class="item-dropdown-label">
+                                <input class="item-dropdown-checkbox" type="checkbox">
+                                <span class="item-dropdown-text">Новинки</span>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="footer-filter">
+                        <div class="footer-filter-button"><a href="#">показать 10 дверей</a></div>
+                        <a href="#">сбросить фильтры</a>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="modal-filter-sort modal-filter">
+            <form action="">
+                <div class="modal-filter-wrapper">
+                    <div class="header">
+                        <div class="modal-filter-header-back">
+                            <img src="assets/images/left-arrow.svg" alt="back">
+                        </div>
+                        <div class="modal-filter-header-title">Сортировать</div>
+                    </div>
+                    <div class="modal-filter-items">
+                        <div class="modal-filter-item">
+                            <label class="item-dropdown-label">
+                                <input class="item-dropdown-checkbox" type="radio">
+                                <span class="item-dropdown-text">по возрастанию</span>
+                            </label>
+                        </div>
+                        <div class="modal-filter-item">
+                            <label class="item-dropdown-label">
+                                <input class="item-dropdown-checkbox" type="radio">
+                                <span class="item-dropdown-text">по убаванию цены</span>
+                            </label>
+                        </div>
+                        <div class="modal-filter-item">
+                            <label class="item-dropdown-label">
+                                <input class="item-dropdown-checkbox" type="radio">
+                                <span class="item-dropdown-text">по популярности</span>
+                            </label>
+                        </div>
+                    <div class="footer-filter">
+                        <div class="footer-filter-button"><a href="#">показать 10 дверей</a></div>
+                        <a href="#">сбросить фильтры</a>
+                    </div>
+                </div>
+            </form>
         </div>
     </footer>
     <script src="script.js"></script>
