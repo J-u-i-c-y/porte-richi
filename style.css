@@ -1,199 +1,67 @@
 @font-face {
     font-family: 'Minion';
-    src: url('/fonts/7312.ttf') format('truetype');
+    src: url('fonts/7312.ttf') format('truetype');
     font-weight: 600;
     font-style: normal;
 }
 @font-face {
     font-family: 'RF Tone';
-    src: url('/fonts/RFTone-ExtraBold.eot');
+    src: url('fonts/RFTone-ExtraBold.eot');
     src: local('RF Tone ExtraBold'), local('RFTone-ExtraBold'),
-        url('/fonts/RFTone-ExtraBold.eot?#iefix') format('embedded-opentype'),
-        url('/fonts/RFTone-ExtraBold.woff2') format('woff2'),
-        url('/fonts/RFTone-ExtraBold.woff') format('woff'),
-        url('/fonts/RFTone-ExtraBold.ttf') format('truetype');
+        url('fonts/RFTone-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('fonts/RFTone-ExtraBold.woff2') format('woff2'),
+        url('fonts/RFTone-ExtraBold.woff') format('woff'),
+        url('fonts/RFTone-ExtraBold.ttf') format('truetype');
     font-weight: 800;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'RF Tone';
-    src: url('/fonts/RFTone-BoldItalic.eot');
-    src: local('RF Tone Bold Italic'), local('RFTone-BoldItalic'),
-        url('/fonts/RFTone-BoldItalic.eot?#iefix') format('embedded-opentype'),
-        url('/fonts/RFTone-BoldItalic.woff2') format('woff2'),
-        url('/fonts/RFTone-BoldItalic.woff') format('woff'),
-        url('/fonts/RFTone-BoldItalic.ttf') format('truetype');
-    font-weight: bold;
-    font-style: italic;
-}
-
-@font-face {
-    font-family: 'RF Tone';
-    src: url('/fonts/RFTone-UltraLight.eot');
-    src: local('RF Tone UltraLight'), local('RFTone-UltraLight'),
-        url('/fonts/RFTone-UltraLight.eot?#iefix') format('embedded-opentype'),
-        url('/fonts/RFTone-UltraLight.woff2') format('woff2'),
-        url('/fonts/RFTone-UltraLight.woff') format('woff'),
-        url('/fonts/RFTone-UltraLight.ttf') format('truetype');
-    font-weight: 200;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'RF Tone';
-    src: url('/fonts/RFTone-Italic.eot');
-    src: local('RF Tone Italic'), local('RFTone-Italic'),
-        url('/fonts/RFTone-Italic.eot?#iefix') format('embedded-opentype'),
-        url('/fonts/RFTone-Italic.woff2') format('woff2'),
-        url('/fonts/RFTone-Italic.woff') format('woff'),
-        url('/fonts/RFTone-Italic.ttf') format('truetype');
-    font-weight: normal;
-    font-style: italic;
-}
-
-@font-face {
-    font-family: 'RF Tone';
-    src: url('/fonts/RFTone-SemiBoldItalic.eot');
-    src: local('RF Tone SemiBold Italic'), local('RFTone-SemiBoldItalic'),
-        url('/fonts/RFTone-SemiBoldItalic.eot?#iefix') format('embedded-opentype'),
-        url('/fonts/RFTone-SemiBoldItalic.woff2') format('woff2'),
-        url('/fonts/RFTone-SemiBoldItalic.woff') format('woff'),
-        url('/fonts/RFTone-SemiBoldItalic.ttf') format('truetype');
-    font-weight: 600;
-    font-style: italic;
-}
-
-@font-face {
-    font-family: 'RF Tone';
-    src: url('/fonts/RFTone-ExtraBoldItalic.eot');
-    src: local('RF Tone ExtraBold Italic'), local('RFTone-ExtraBoldItalic'),
-        url('/fonts/RFTone-ExtraBoldItalic.eot?#iefix') format('embedded-opentype'),
-        url('/fonts/RFTone-ExtraBoldItalic.woff2') format('woff2'),
-        url('/fonts/RFTone-ExtraBoldItalic.woff') format('woff'),
-        url('/fonts/RFTone-ExtraBoldItalic.ttf') format('truetype');
-    font-weight: 800;
-    font-style: italic;
-}
-
-@font-face {
-    font-family: 'RF Tone';
-    src: url('/fonts/RFTone-Light.eot');
+    src: url('fonts/RFTone-Light.eot');
     src: local('RF Tone Light'), local('RFTone-Light'),
-        url('/fonts/RFTone-Light.eot?#iefix') format('embedded-opentype'),
-        url('/fonts/RFTone-Light.woff2') format('woff2'),
-        url('/fonts/RFTone-Light.woff') format('woff'),
-        url('/fonts/RFTone-Light.ttf') format('truetype');
+        url('fonts/RFTone-Light.eot?#iefix') format('embedded-opentype'),
+        url('fonts/RFTone-Light.woff2') format('woff2'),
+        url('fonts/RFTone-Light.woff') format('woff'),
+        url('fonts/RFTone-Light.ttf') format('truetype');
     font-weight: 300;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'RF Tone';
-    src: url('/fonts/RFTone-ExtraLightItalic.eot');
-    src: local('RF Tone ExtraLight Italic'), local('RFTone-ExtraLightItalic'),
-        url('/fonts/RFTone-ExtraLightItalic.eot?#iefix') format('embedded-opentype'),
-        url('/fonts/RFTone-ExtraLightItalic.woff2') format('woff2'),
-        url('/fonts/RFTone-ExtraLightItalic.woff') format('woff'),
-        url('/fonts/RFTone-ExtraLightItalic.ttf') format('truetype');
-    font-weight: 200;
-    font-style: italic;
-}
-
-@font-face {
-    font-family: 'RF Tone';
-    src: url('/fonts/RFTone-ExtraLight.eot');
-    src: local('RF Tone ExtraLight'), local('RFTone-ExtraLight'),
-        url('/fonts/RFTone-ExtraLight.eot?#iefix') format('embedded-opentype'),
-        url('/fonts/RFTone-ExtraLight.woff2') format('woff2'),
-        url('/fonts/RFTone-ExtraLight.woff') format('woff'),
-        url('/fonts/RFTone-ExtraLight.ttf') format('truetype');
-    font-weight: 200;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'RF Tone';
-    src: url('/fonts/RFTone-Regular.eot');
+    src: url('fonts/RFTone-Regular.eot');
     src: local('RF Tone Regular'), local('RFTone-Regular'),
-        url('/fonts/RFTone-Regular.eot?#iefix') format('embedded-opentype'),
-        url('/fonts/RFTone-Regular.woff2') format('woff2'),
-        url('/fonts/RFTone-Regular.woff') format('woff'),
-        url('/fonts/RFTone-Regular.ttf') format('truetype');
+        url('fonts/RFTone-Regular.eot?#iefix') format('embedded-opentype'),
+        url('fonts/RFTone-Regular.woff2') format('woff2'),
+        url('fonts/RFTone-Regular.woff') format('woff'),
+        url('fonts/RFTone-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'RF Tone';
-    src: url('/fonts/RFTone-Bold.eot');
+    src: url('fonts/RFTone-Bold.eot');
     src: local('RF Tone Bold'), local('RFTone-Bold'),
-        url('/fonts/RFTone-Bold.eot?#iefix') format('embedded-opentype'),
-        url('/fonts/RFTone-Bold.woff2') format('woff2'),
-        url('/fonts/RFTone-Bold.woff') format('woff'),
-        url('/fonts/RFTone-Bold.ttf') format('truetype');
+        url('fonts/RFTone-Bold.eot?#iefix') format('embedded-opentype'),
+        url('fonts/RFTone-Bold.woff2') format('woff2'),
+        url('fonts/RFTone-Bold.woff') format('woff'),
+        url('fonts/RFTone-Bold.ttf') format('truetype');
     font-weight: bold;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'RF Tone';
-    src: url('/fonts/RFTone-SemiBold.eot');
+    src: url('fonts/RFTone-SemiBold.eot');
     src: local('RF Tone SemiBold'), local('RFTone-SemiBold'),
-        url('/fonts/RFTone-SemiBold.eot?#iefix') format('embedded-opentype'),
-        url('/fonts/RFTone-SemiBold.woff2') format('woff2'),
-        url('/fonts/RFTone-SemiBold.woff') format('woff'),
-        url('/fonts/RFTone-SemiBold.ttf') format('truetype');
+        url('fonts/RFTone-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('fonts/RFTone-SemiBold.woff2') format('woff2'),
+        url('fonts/RFTone-SemiBold.woff') format('woff'),
+        url('fonts/RFTone-SemiBold.ttf') format('truetype');
     font-weight: 600;
     font-style: normal;
-}
-
-@font-face {
-    font-family: 'RF Tone';
-    src: url('/fonts/RFTone-Black.eot');
-    src: local('RF Tone Black'), local('RFTone-Black'),
-        url('/fonts/RFTone-Black.eot?#iefix') format('embedded-opentype'),
-        url('/fonts/RFTone-Black.woff2') format('woff2'),
-        url('/fonts/RFTone-Black.woff') format('woff'),
-        url('/fonts/RFTone-Black.ttf') format('truetype');
-    font-weight: 900;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'RF Tone';
-    src: url('/fonts/RFTone-LightItalic.eot');
-    src: local('RF Tone Light Italic'), local('RFTone-LightItalic'),
-        url('/fonts/RFTone-LightItalic.eot?#iefix') format('embedded-opentype'),
-        url('/fonts/RFTone-LightItalic.woff2') format('woff2'),
-        url('/fonts/RFTone-LightItalic.woff') format('woff'),
-        url('/fonts/RFTone-LightItalic.ttf') format('truetype');
-    font-weight: 300;
-    font-style: italic;
-}
-
-@font-face {
-    font-family: 'RF Tone';
-    src: url('/fonts/RFTone-UltraLightItalic.eot');
-    src: local('RF Tone UltraLight Italic'), local('RFTone-UltraLightItalic'),
-        url('/fonts/RFTone-UltraLightItalic.eot?#iefix') format('embedded-opentype'),
-        url('/fonts/RFTone-UltraLightItalic.woff2') format('woff2'),
-        url('/fonts/RFTone-UltraLightItalic.woff') format('woff'),
-        url('/fonts/RFTone-UltraLightItalic.ttf') format('truetype');
-    font-weight: 200;
-    font-style: italic;
-}
-
-@font-face {
-    font-family: 'RF Tone';
-    src: url('/fonts/RFTone-BlackItalic.eot');
-    src: local('RF Tone Black Italic'), local('RFTone-BlackItalic'),
-        url('/fonts/RFTone-BlackItalic.eot?#iefix') format('embedded-opentype'),
-        url('/fonts/RFTone-BlackItalic.woff2') format('woff2'),
-        url('/fonts/RFTone-BlackItalic.woff') format('woff'),
-        url('/fonts/RFTone-BlackItalic.ttf') format('truetype');
-    font-weight: 900;
-    font-style: italic;
 }
 
 * {
@@ -260,6 +128,19 @@ header {
 .burger {
     display: none;
 }
+.modal-filter {
+    display: none;
+}
+.header-mobile {
+    height: 0;
+    transition: height .3s ease;
+    position: absolute;
+    top: 54px;
+    width: 100%;
+    background: #fff;
+    z-index: 2;
+    overflow: hidden;
+}
 .new-poduct {
     position: absolute;
     right: -40px;
@@ -314,16 +195,19 @@ svg path {
 .header-desc-bottom .nav-item-dropdown {
     display: none;
 }
-.header-desc-bottom .nav {
+.header-desc-bottom .nav,
+.header-mobile .nav-list{
     width: 100%;
 }
-.header-desc-bottom .nav-list {
+.header-desc-bottom .nav-list,
+.header-mobile .nav-list .nav-item {
     display: flex;
     justify-content: space-between;
     margin: 0;
     width: 100%;
 }
-.header-desc-bottom .nav-list .nav-item {
+.header-desc-bottom .nav-list .nav-item,
+.header-mobile .nav-list .nav-item {
     text-transform: uppercase;
     font-size: 13px;
     letter-spacing: 3px;
@@ -387,14 +271,14 @@ svg path {
     color: #000;
     height: 45px;
 }
-.main-titles .type-filter-mobile > .container .row  .type-sort:after {
+.main-titles .type-filter-mobile > .container .row .type-sort:after {
     content: '';
     position: absolute;
     width: 7px;
     height: 5px;
-    background-image: url(/assets/images/sort-arrow.svg);
+    background-image: url(assets/images/sort-arrow.svg);
     top: 50%;
-    margin-left: 5px;
+    margin-left: 4px;
     background-size: contain;
     transform: translateY(-50%);
     background-repeat: no-repeat;
@@ -462,7 +346,7 @@ svg path {
     position: absolute;
     width: 7px;
     height: 5px;
-    background-image: url(/assets/images/sort-arrow.svg);
+    background-image: url(assets/images/sort-arrow.svg);
     top: 50%;
     margin-left: 5px;
     background-size: contain;
@@ -550,7 +434,7 @@ svg path {
     position: absolute;
     width: 7px;
     height: 5px;
-    background-image: url(/assets/images/sort-arrow.svg);
+    background-image: url(assets/images/sort-arrow.svg);
     top: 50%;
     margin-left: 5px;
     background-size: contain;
@@ -730,6 +614,9 @@ svg path {
     position: absolute;
     right: 85px;
     bottom: 0;
+}
+.pagination-btn-img {
+    display: none;
 }
 .pagination {
     margin-bottom: 195px;
@@ -974,14 +861,14 @@ svg path {
 .product-row .product-text {
     width: 599px;
     padding: 54px 44px;
-    background: url(/assets/images/Layer-1.png) bottom 38px left 315px, 
+    background: url(assets/images/Layer-1.png) bottom 38px left 315px, 
                 linear-gradient(110.37deg, #F8F8F8 13.54%, #EDEDED 806.46%);
     background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
 }
 .product-row .product-text-background {
-    background: url(/assets/images/Layer-2.png) bottom 36px left 262px, 
+    background: url(assets/images/Layer-2.png) bottom 36px left 262px, 
                 linear-gradient(110.37deg, #F8F8F8 13.54%, #EDEDED 806.46%);
     background-repeat: no-repeat;
 }
@@ -1233,7 +1120,7 @@ svg path {
         position: absolute;
         width: 7px;
         height: 5px;
-        background-image: url(/assets/images/sort-arrow.svg);
+        background-image: url(assets/images/sort-arrow.svg);
         top: 50%;
         margin-left: 5px;
         background-size: contain;
@@ -1254,13 +1141,13 @@ svg path {
     .product-row .product-text {
         width: 458px;
         padding: 36px;
-        background: url(/assets/images/Layer-1.png) bottom 105px left 265px,
+        background: url(assets/images/Layer-1.png) bottom 105px left 265px,
                     linear-gradient(110.37deg, #F8F8F8 13.54%, #EDEDED 806.46%);
         background-size: 280px, 100%;
         background-repeat: no-repeat;
     }
     .product-row .product-text-background {
-        background: url(/assets/images/Layer-2.png) bottom 36px left 262px, 
+        background: url(assets/images/Layer-2.png) bottom 36px left 262px, 
         linear-gradient(110.37deg, #F8F8F8 13.54%, #EDEDED 806.46%);
         background-repeat: no-repeat;
     }
@@ -1403,6 +1290,17 @@ svg path {
         padding-right: 15px;
         position: relative;
     }
+    .product-row .images .rectangle {
+        height: 160px;
+    }
+    .product-row .images .rectangle .sale:nth-of-type(1) {
+        left: -280px;
+        bottom: 75px;
+    }
+    .product-row .images .rectangle .sale:nth-of-type(2) {
+        left: -135px;
+        bottom: -15px;
+    }
     .product-row .images .doors-img {
         width: 156px;
     }
@@ -1467,7 +1365,32 @@ svg path {
         line-height: 18px;
     }
     .product-row .product-text-background {
-        background-position: bottom 18px left 180px;
+        background-position: bottom 18px left 180px, bottom left;
+    }
+    .product-row .product-text-background .product-text-button {
+        width: 157px;
+    }
+    .product-single .images img {
+        width: 227px;
+    }
+    .product-single .desc-top .variant-name {
+        font-size: 27px;
+        margin-bottom: 0;
+    }
+    .product-single .variant {
+        padding-left: 0;
+    }
+    .product-single-left .variant {
+        padding-left: 44px;
+        padding-top: 118px;
+    }
+    .product-single .variant-price {
+        font-size: 18px;
+        margin-top: 10px;
+        order: 2;
+    }
+    .product-single .variant-info {
+        margin-bottom: 0;
     }
     .stock .stock-title {
         font-size: 27px;
@@ -1515,6 +1438,9 @@ svg path {
     .burger {
         display: inline-block;
     }
+    .header-mobile {
+        display: block;
+    }
     .header-desc-bottom,
     .main-titles .type-filter {
         display: none;
@@ -1548,6 +1474,15 @@ svg path {
         position: relative;
         z-index: 2;
         background-color: #fff;
+        height: 0;
+        transition: height .3s ease;
+        overflow: hidden;
+    }
+    .type-filter-mobile-dropdown.show {
+        height: 92px;
+    }
+    .header-mobile.show {
+        height: 280px;
     }
     .mobile-dropdown-link {
         border-bottom: 1px solid #E4E4E4;
@@ -1559,8 +1494,11 @@ svg path {
         flex-direction: row;
         justify-content: space-between;
     }
+    .main-titles .type-filter-mobile .type-sort:hover {
+
+    }
     .main-titles .type-filter-mobile .type-sort.filters {
-        margin-right: 12px;
+        padding-right: 12px;
         font-family: "Manion";
         font-size: 14px;
         letter-spacing: 0.07em;
@@ -1568,13 +1506,456 @@ svg path {
         font-weight: 300;
     }
     .main-titles .type-filter-mobile > .container .row .type-sort.filters:after {
-        background-image: url(/assets/images/sort-arrow.svg);
+        background-image: url(assets/images/sort-arrow.svg);
         -webkit-transform: rotate(-90deg) translate(40%,50%);
         -ms-transform: rotate(-90deg) translate(40%,50%);
         transform: rotate(-90deg) translate(40%,50%);
     }
+    .header-mobile .nav-list {
+        margin: 20px;
+    }
+    .header-mobile .nav-list .nav-item {
+        padding: 5px 0;
+    }
+    .nav-item a svg {
+        top: 0px;
+    }
+    .modal-filter {
+        position: fixed;
+        width: 100%;
+        top: 0;
+        height: 100vh;
+        background-color: #fff;
+        z-index: -1;
+        opacity: 0;
+        transition: .3s;
+        display: block;
+    }
+    .modal-filter .modal-filter-wrapper .header {
+        position: relative;
+        height: 63px;
+        background: linear-gradient(168.78deg, #F8F8F8 13.54%, #EDEDED 86.46%);
+        border-bottom: 1px solid #E4E4E4;
+        line-height: 63px;
+    }
+
+    .modal-filter .modal-filter-wrapper .modal-filter-header-title {
+        font-weight: 700;
+        letter-spacing: 3px;
+        text-transform: uppercase;
+        -webkit-transition: 0.25s;
+        transition: 0.25s;
+        font-size: 13px;
+        width: 100%;
+        text-align: center;
+    }
+    .modal-filter .modal-filter-wrapper .modal-filter-header-close {
+        cursor: pointer;
+        position: absolute;
+        right: 37px;
+        top: 0
+    }
+    .modal-filter .modal-filter-wrapper .modal-filter-item {
+        font-size: 20px;
+        line-height: 27px;
+        font-family: "Minion";
+        font-weight: 300;
+        cursor: pointer;
+        -webkit-transition: 0.25s;
+        transition: 0.25s;
+        padding: 9px 27px;
+        border-bottom: 1px solid #E4E4E4;
+        display: flex;
+        justify-content: space-between;
+    }
+    .modal-filter .modal-filter-wrapper .modal-filter-item:hover {
+        color: #CBA576;
+    }
+    .modal-filter .modal-filter-wrapper .modal-filter-item .item-dropdown-label {
+        padding: 0;
+        display: inline;
+        width: auto;
+    }
+    .modal-filter .modal-filter-wrapper .footer-filter {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 100%;
+        margin-top: 36px;
+    }
+    .modal-filter .modal-filter-wrapper .footer-filter .footer-filter-button {
+        width: calc(100% - 50px);
+        height: 72px;
+        border: 1px solid #9D9DA1;
+        text-align: center;
+        font-weight: 700;
+        letter-spacing: 3px;
+        text-transform: uppercase;
+        margin-bottom: 27px;
+        line-height: 72px;
+        font-size: 13px;
+    }
+    .modal-filter .modal-filter-wrapper .footer-filter .footer-filter-button a {
+        width: 100%;
+        height: 100%;
+        display: block;
+        -webkit-transition: 0.25s;
+        transition: 0.25s;
+    }
+    .modal-filter .modal-filter-wrapper .footer-filter > a {
+        display: flex;
+        height: 59px;
+        text-align: center;
+        border: none;
+        font-size: 13px;
+        font-weight: 700;
+        letter-spacing: 3px;
+        text-transform: uppercase;
+        -webkit-transition: 0.25s;
+        transition: 0.25s;
+        color: #868686;
+        margin-bottom: 18px;
+    }
+    .item-dropdown-text:before {
+        position: absolute;
+        right: -10px;
+        left: auto;
+    }
+    .modal-filter .modal-filter-wrapper .modal-filter-item .item-dropdown-label {
+        width: 100%;
+    }
+    .modal-filter .modal-filter-wrapper .modal-filter-item .item-dropdown-label span {
+        width: 100%;
+        display: inline-block;
+    }
+    .item-dropdown-checkbox:checked ~ .item-dropdown-text:after {
+        right: -15px;
+        left: auto;
+    }
+    .modal-filter-sort .item-dropdown-text:before {
+        top: 3px;
+        border-radius: 50%;
+    }
+    .modal-filter-sort .item-dropdown-checkbox:checked ~ .item-dropdown-text:after {
+        width: 7px;
+        height: 7px;
+        background-color: #CBA576;
+        border-radius: 50%;
+    }
+    .modal-filter-sort .item-dropdown-checkbox:checked ~ .item-dropdown-text:after {
+        right: -5px;
+        left: auto;
+        top: 8px;
+    }
+    .modal-filter-header-back {
+        position: absolute;
+        margin-left: 30px;
+    }
+    .modal-filter-sort.modal-filter {
+        display: none;
+    }
+    .modal-filter-sort.modal-filter.show {
+        display: block;
+    }
+    .modal-filter-header-back img {
+        cursor: pointer;
+    }
+    .modal-filter.show {
+        opacity: 1;
+        z-index: 3;
+    }
+    .product-row,
+    .product-row.margin-more,
+    .stock, .pagination,
+    .product-row.product-row-last {
+        margin-bottom: 72px;
+    }
+    .product-single .product {
+        margin-bottom: 62px;
+    }
+    .pagination .pagination-btn-prev,
+    .pagination .pagination-btn-next {
+        max-width: 46px;
+        max-height: 46px;
+        padding: 0;
+        position: relative;
+        margin-right: 19px;
+    }
+    .pagination .pagination-btn-number {
+        width: 46px;
+        max-height: 46px;
+        padding: 0;
+        line-height: 46px;
+    }
+    .pagination .pagination-btn-download {
+        height: 46px;
+        line-height: 46px;
+        width: 289px;
+    }
+    .pagination-btn-name {
+        display: none;
+    }
+    .pagination-btn-img {
+        display: block;
+    }
+    .pagination-btn-img img {
+        height: 10px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .pagination-btn-next .pagination-btn-img img {
+        transform: translate(-50%, -50%) rotate(180deg);
+    }
+    .pagination .pagination-btn-download {
+        margin-left: auto;
+    }
+    .recently-view .recently-title {
+        font-size: 27px;
+        margin-bottom: 16px;
+    }
+    .recently-view img {
+        height: 256px;
+    }
+    .recently-view .product .images img:last-child {
+        margin-left: 8px;
+    }
+    .recently-view .product:not(:first-child) {
+        margin-left: 34px;
+    }
+    .recently-view .product .desc-top, 
+    .recently-view  .product .desc-bottom {
+        display: block;
+        margin-top: 3px;
+    }
+    .recently-view .product .desc-top:not(.desc-mobile) .variant-price {
+        display: none;
+    }
+    .recently-view .product .variant-price {
+        font-size: 18px;
+    }
+    .recently-view {
+        padding-bottom: 86px;
+    }
+    .instagram-content {
+        height: 144px;
+    }
+    .instagram .instagram-title {
+        font-size: 27px;
+        line-height: 38px;
+    }
+    .instagram .instagram-content-left {
+        padding: 13px 45px 19px 0;
+        width: 286px;
+    }
+    .instagram .instagram-button {
+        font-size: 10px;
+    }
+    .instagram .instagram-button img {
+        width: 35px;
+    }
+    .instagram .instagram-content-right img {
+        height: 100%;
+    }
+    .instagram .instagram-content-right a {
+        width: 146px;
+    }
+    .footer-nav .katalog{
+        width: 293px;
+        margin-bottom: 48px;
+    }
+    .footer-nav .customer {
+        width: 296px;
+        max-width: 296px;
+        margin-left: 0;
+    }
+    .footer-nav .about {
+        width: 200px;
+        margin-left: 0;
+    }
+    .footer-nav .salon {
+        margin-left: 0;
+        width: 285px;
+        max-width: 285px;
+        -webkit-box-flex: 0;
+        -ms-flex: auto;
+        flex: auto;
+    }
+    .footer-nav .follow {
+        order: 1;
+        margin-left: 0;
+        width: 294px;
+    }
+    .footer-nav .container {
+        padding-top: 45px;
+    }
+    .footer-nav h5 {
+        margin-bottom: 15px;
+    }
+    .footer-nav ul li {
+        margin-bottom: 2px;
+    }
+    .footer-nav ul li a {
+        font-size: 16px;
+        line-height: 20px;
+        padding: 0;
+    }
+    
     
 }
+    
 @media (max-width: 857px) {
-
+    .container {
+        max-width: 306px;
+        margin: 0 auto;
+        padding-left: 15px;
+        padding-right: 15px;
+        position: relative;
+    }
+    .header-desc-top {
+        padding: 0px 9px;
+    }
+    .header-desc-top .left-side a:not(:last-child) {
+        margin-right: 12px;
+    }
+    .header-desc {
+        margin-bottom: 20px;
+    }
+    .main-titles .main-title h1 {
+        margin-top: 9px;
+    }
+    .main-titles .type-filter-mobile {
+        margin-top: 13px;
+        margin-bottom: 27px;
+    }
+    .product-row .images .doors-img {
+        width: 144px;
+    }
+    .product-row .product {
+        margin-bottom: 45px;
+    }
+    .product-row {
+        margin-bottom: 0;
+    }
+    .stock-content {
+        height: 480px;
+        padding: 24px 20px 30px;
+        display: block;
+    }
+    .stock .stock-title {
+        width: 57%;
+    }
+    .stock .stock-content-left {
+        width: auto;
+    }
+    .stock .stock-content-right {
+        position: static;
+        transform: translate(0);
+        margin-top: 20px;
+        width: 184px;
+    }
+    .stock .stock-button, 
+    .product-row .product-text-button {
+        position: absolute;
+        bottom: 41px;
+        width: 133px;
+    }
+    .stock .stock-content img {
+        right: -155px;
+        height: 76%;
+        bottom: -34px;
+        transform: scale(0.8); 
+    }
+    .product-row .product-text {
+        margin-bottom: 45px;
+        position: relative;
+        height: 505px;
+        background-position: bottom 39% left 600%;;
+    }
+    .product-row.margin-more {
+        margin-bottom: 45px;
+    }
+    .product-single .images img {
+        width: 144px;
+    }
+    .product-single .product {
+        flex-direction: column;
+        margin-bottom: 45px;
+        padding: 0;
+    }
+    .product-single-left .variant {
+        padding: 18px 0 0 ;
+        border-bottom: 1px solid #E0E0E0;
+    }
+    .product-single .variant {
+        padding-top: 18px;
+    }
+    .product-single.product-single-right .product {
+        flex-direction: column-reverse;
+    }
+    .pagination .pagination-btn {
+        order: 2;
+    }
+    .pagination .pagination-btn-download {
+        order: 1;
+        width: 100%;
+        margin-bottom: 18px;
+    }
+    .product-row.product-row-last {
+        margin-bottom: 12px;
+    }
+    .pagination .pagination-btn-number:nth-of-type(5) {
+        display: none;
+    }
+    .pagination .pagination-btn-number {
+        margin-right: 19px;
+    }
+    .pagination .pagination-btn-next {
+        margin-right: 0;
+    }
+    .recently-view .recently-title {
+        margin-right: -15px;
+    }
+    .instagram-content {
+        flex-direction: column;
+        height: auto;
+    }
+    .instagram .instagram-content-left {
+        padding: 17px 0;
+        width: 100%;
+    }
+    .instagram .instagram-title {
+        margin-bottom: 7px;
+    }
+    .instagram .instagram-button {
+        font-size: 12px;
+    }
+    .instagram .instagram-content-right img {
+        width: 146px;
+    }
+    .instagram .instagram-content-right {
+        position: absolute;
+        left: calc((-100vw + 306px)/2);
+        bottom: 0;
+        height: 146px;
+    }
+    .instagram .container{
+        height: 299px;
+    }
+    .footer-nav .follow,
+    .footer-nav .about {
+        width: 160px;
+    }
+    .product-row .product-text-button {
+        width: 180px;
+    }
+    .footer-nav .katalog,
+    .footer-nav .customer {
+        margin-bottom: 15px;
+    }
+    .footer-nav .salon {
+        margin-top: 15px;
+    }
+ 
 }
